@@ -1,50 +1,80 @@
-<!DOCTYPE HTML>
-<!--
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Norhill.se - Soon to be released</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/icon type" href="norhill_small.ico">
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Norhill.se - Release March 1<sup>st</sup></h1>
-				<p>Norhill will bridge the gap between high-level business strategy and the gritty reality of technical execution.<br>
-				We'll provide pragmatic IT services with the surgical precision of senior IT architects and the speed of a startup.</p>
-				<p>Get first in queue. State a current challenge of yours.</p>
-			</header>
+    <title>Norhill – IT-arkitektur, strategi och förmågeutveckling</title>
+    <meta name="description" content="Norhill hjälper företag att förstå och utveckla sina affärsmässiga förmågor genom strategisk IT-arkitektur, rådgivning och coaching för hållbar tillväxt." />
+    <meta name="robots" content="index, follow" />
 
-		<!-- Signup Form -->
-			<form action="https://challenge.norhill.se">
-				<input type="submit" value="Challenge Us" />
-			</form>
-			<!--<p>The modern enterprise is a labyrinth of legacy debt, AI hype, and disconnected silos.</br>
-			Most organizations don’t need more documentation — they need <i>clarity</i>.<br>
-			They need an architecture that acts as an <i>engine for growth</i>, not a brake on innovation.</p>-->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="canonical" href="https://norhill.se/" />
 
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/inorberg/" class="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer" ><span class="label">Linkedin</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Norhill.se</li>
-					<li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="sv_SE" />
+    <meta property="og:site_name" content="Norhill" />
+    <meta property="og:title" content="Norhill – IT-arkitektur, strategi och förmågeutveckling" />
+    <meta property="og:description" content="Norhill hjälper företag att förstå och utveckla sina affärsmässiga förmågor genom strategisk IT-arkitektur, rådgivning och coaching för hållbar tillväxt." />
+    <meta property="og:url" content="https://norhill.se/" />
+    <meta property="og:image" content="https://norhill.se/images/norhill_logo_blue_120x42.png" />
 
-		<!-- Scripts -->
-			<script src="assets/js/main.js"></script>
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Norhill – IT-arkitektur, strategi och förmågeutveckling" />
+    <meta name="twitter:description" content="Norhill hjälper företag att förstå och utveckla sina affärsmässiga förmågor genom strategisk IT-arkitektur, rådgivning och coaching för hållbar tillväxt." />
+    <meta name="twitter:image" content="https://norhill.se/images/norhill_logo_blue_120x42.png" />
 
-	</body>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8XBWHQW3S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-C8XBWHQW3S', { send_page_view: false });
+    </script>
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Organization structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Norhill AB",
+      "url": "https://norhill.se",
+      "logo": "https://norhill.se/images/norhill_logo_blue_120x42.png",
+      "description": "IT-arkitektur, strategisk rådgivning och coaching för organisationer som vill förstå sin verklighet, fatta bättre beslut och bygga hållbara förmågor.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Linköping",
+        "addressCountry": "SE"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/norhill/"
+      ],
+      "knowsAbout": [
+        "Enterprise Architecture",
+        "IT Architecture",
+        "Cloud Architecture",
+        "Business Capability Development",
+        "Organizational Transformation"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "Sweden"
+      },
+      "inLanguage": "sv"
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
 
