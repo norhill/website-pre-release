@@ -17,10 +17,10 @@ export default function PrivacyPolicy() {
           </p>
           <p className="text-sm text-dark-gray">
             Norhill är personuppgiftsansvarig för de behandlingar som beskrivs här. Om du har frågor om hur vi
-            behandlar dina personuppgifter är du välkommen att kontakta oss via{' '}
+            behandlar dina personuppgifter är du välkommen att kontakta oss{/* via{' '}
             <a href="mailto:info@norhill.se" className="text-nordic-blue underline">
               info@norhill.se
-            </a>
+            </a>*/}
             .
           </p>
         </>
@@ -262,7 +262,7 @@ export default function PrivacyPolicy() {
               Om du har frågor om denna integritetspolicy eller vill utöva dina rättigheter kan du kontakta oss:
             </p>
             <ul className="text-sm space-y-1">
-              <li>• E-post: <a href="mailto:info@norhill.se" className="text-nordic-blue underline">info@norhill.se</a></li>
+              {/*<li>• E-post: <a href="mailto:info@norhill.se" className="text-nordic-blue underline">info@norhill.se</a></li>*/}
               <li>• Kontaktformulär: via sidan <Link to="/contact" className="text-nordic-blue underline">Kontakt</Link></li>
             </ul>
           </div>

@@ -214,12 +214,12 @@ export default function AiCustomerDataPolicy() {
               kontakta oss:
             </p>
             <ul className="text-sm space-y-1">
-              <li>
+              {/*<li>
                 • E-post:{' '}
                 <a href="mailto:info@norhill.se" className="text-nordic-blue underline">
                   info@norhill.se
                 </a>
-              </li>
+              </li>*/}
               <li>
                 • Kontaktformulär: via sidan{' '}
                 <Link to="/contact" className="text-nordic-blue underline">
