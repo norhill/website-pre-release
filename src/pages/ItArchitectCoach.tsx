@@ -270,7 +270,7 @@ export default function ItArchitectCoach() {
                 whileHover={{ y: -4 }}
                 className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-all"
               >
-                <div className="text-3xl mb-3">{b.icon}</div>
+                {/*<div className="text-3xl mb-3">{b.icon}</div>*/}
                 <h3 className="text-lg font-heading font-bold text-nordic-blue mb-2">{b.title}</h3>
                 <p className="text-dark-gray text-sm">{b.desc}</p>
               </motion.div>
