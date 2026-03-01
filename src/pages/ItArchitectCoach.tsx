@@ -4,9 +4,9 @@ import Seo from '../components/Seo'
 
 export default function ItArchitectCoach() {
   const included = [
-    '4 timmar per månad med senior arkitekt',
+    '8 timmar per månad med senior arkitekt',
     'Fast månatligt strategiskt möte (2 timmar)',
-    'Standby för akuta frågor (2 timmar/månad)',
+    'Standby för akuta frågor (6 timmar/månad)',
     'Snabb respons på arkitekturfrågor',
     'Oberoende perspektiv på tekniska beslut',
     'Ingen operativt ansvar – bara strategiskt stöd',
@@ -71,7 +71,7 @@ export default function ItArchitectCoach() {
   const steps = [
     { num: '1', title: 'Start', desc: 'Vi träffas på plats för att förstå dina behov och utmaningar' },
     { num: '2', title: 'Månadsmöte', desc: 'Fast månatligt möte (2 timmar) för strategiska diskussioner' },
-    { num: '3', title: 'Standby', desc: 'Du kan höra av dig vid akuta frågor (2 timmar/månad)' },
+    { num: '3', title: 'Standby', desc: 'Du kan höra av dig vid akuta frågor (6 timmar/månad)' },
     { num: '4', title: 'Uppföljning', desc: 'Vi utvärderar regelbundet om tjänsten ger värde' },
     { num: '5', title: 'Anpassning', desc: 'Vi justerar fokus baserat på dina behov' },
   ]
@@ -80,13 +80,13 @@ export default function ItArchitectCoach() {
     <div>
       <Seo
         title="IT Coach – Din externa IT-arkitekt"
-        description="Få tillgång till en senior IT-arkitekt som sparringpartner. 4 timmar per månad med strategiskt stöd, oberoende perspektiv och arkitekturrådgivning."
+        description="Få tillgång till en senior IT-arkitekt som sparringpartner. 8 timmar per månad med strategiskt stöd, oberoende perspektiv och arkitekturrådgivning."
         jsonLd={{
           '@context': 'https://schema.org',
           '@type': 'Service',
           name: 'IT Coach',
           provider: { '@type': 'Organization', name: 'Norhill AB' },
-          description: 'Din externa IT-arkitekt och sparringpartner. 4 timmar per månad med senior arkitekt för strategiska IT-beslut.',
+          description: 'Din externa IT-arkitekt och sparringpartner. 8 timmar per månad med senior arkitekt för strategiska IT-beslut.',
           areaServed: { '@type': 'Country', name: 'Sweden' },
         }}
       />
