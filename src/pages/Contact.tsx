@@ -45,12 +45,22 @@ export default function Contact() {
               <div className="flex items-center gap-4 mb-4">
                 <div>
                   <h1 className="text-xl md:text-2xl font-heading font-bold text-near-black">
+                    Kontakta via mail
+                  </h1>
+                </div>
+              </div>
+              <p className="text-dark-gray leading-relaxed mb-6">
+               Skicka gärna ett mail till <a href="mailto:info@norhill.se">info@norhill.se</a>
+              </p>
+              <div className="flex items-center gap-4 mb-4">
+                <div>
+                  <h1 className="text-xl md:text-2xl font-heading font-bold text-near-black">
                     Kontakta via LinkedIn
                   </h1>
                 </div>
               </div>
               <p className="text-dark-gray leading-relaxed mb-6">
-               Primära kontaktsättet är via LinkedIn. Gå in på Norhills företagssida och använd alternativet "Skicka meddelande" för att kontakta eller skicka förfrågan.<br/><br/>
+               Gå in på Norhills företagssida och använd alternativet "Skicka meddelande" för att kontakta eller skicka förfrågan.<br/><br/>
                ✓ Passa även på att följa!
               </p>
               <span className="inline-flex items-center gap-2 btn-primary">
