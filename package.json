@@ -2,6 +2,7 @@
   "name": "norhill-website",
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://norhill.github.io",
   "scripts": {
     "dev": "concurrently -n api,web \"npm run dev:server\" \"vite\"",
     "dev:frontend": "vite",
