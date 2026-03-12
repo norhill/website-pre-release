@@ -66,6 +66,9 @@ export default function Footer() {
               <li>
                 <Link to="/contact" className="text-sky-blue hover:text-white transition-colors">Kontakt</Link>
               </li>
+              <li>
+                <a href="mailto:info@norhill.se">info@norhill.se</a>
+              </li>
               <li className="text-sm text-white">
                 F-skatt<br/>
                 559567-7815
@@ -88,4 +91,5 @@ export default function Footer() {
     </footer>
   )
 }
+
 
