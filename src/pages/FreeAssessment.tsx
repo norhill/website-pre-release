@@ -13,12 +13,12 @@ export default function FreeAssessment() {
   ]
 
   const topics = [
-    { icon: '📊', title: 'Arkitekturmognad', desc: 'Var står ni idag och vad behöver ni för att nå nästa nivå?' },
-    { icon: '🔀', title: 'Tekniska beslut', desc: 'Står ni inför val av plattform, molnstrategi eller AI-implementering?' },
-    { icon: '⚠️', title: 'Riskhantering', desc: 'Vilka är era största tekniska risker och hur hanterar ni dem?' },
-    { icon: '💰', title: 'Kostnadseffektivisering', desc: 'Var läcker pengar ut ur er IT-miljö?' },
-    { icon: '🎓', title: 'Förmågeutveckling', desc: 'Hur stärker ni er interna arkitekturkompetens?' },
-    { icon: '🔄', title: 'Transformation', desc: 'Planerar ni större förändringar och behöver förstå nuvarande läge?' },
+    { icon: '', title: 'Arkitekturmognad', desc: 'Var står ni idag och vad behöver ni för att nå nästa nivå?' },
+    { icon: '', title: 'Tekniska beslut', desc: 'Står ni inför val av plattform, molnstrategi eller AI-implementering?' },
+    { icon: '', title: 'Riskhantering', desc: 'Vilka är era största tekniska risker och hur hanterar ni dem?' },
+    { icon: '', title: 'Kostnadseffektivisering', desc: 'Var läcker pengar ut ur er IT-miljö?' },
+    { icon: '', title: 'Förmågeutveckling', desc: 'Hur stärker ni er interna arkitekturkompetens?' },
+    { icon: '', title: 'Transformation', desc: 'Planerar ni större förändringar och behöver förstå nuvarande läge?' },
   ]
 
   const audiences = [
