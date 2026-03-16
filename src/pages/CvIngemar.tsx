@@ -421,18 +421,18 @@ const translations = {
   industry: {
     heading: { en: 'Industry Experience', sv: 'Branscherfarenhet' },
     industryLabel: { en: 'Industry', sv: 'Bransch' },
-    yearsLabel: { en: 'Years', sv: 'År' },
+    yearsLabel: { en: '', sv: '' },
     descriptionLabel: { en: 'Description', sv: 'Beskrivning' },
     companySizeNote: {
       en: 'Company size experience: Startup (10–50), Growth (50–200), Scale (200–1,000), Enterprise (1,000+)',
       sv: 'Erfarenhet av företagsstorlek: Startup (10–50), Tillväxt (50–200), Skalning (200–1 000), Enterprise (1 000+)',
     },
     rows: [
-      { industry: { en: 'IT Services & Outsourcing', sv: 'IT-tjänster & outsourcing' }, years: '10', desc: { en: 'SaaS delivery, complete outsourcing solutions, application delivery, managed services. EVRY One Outsourcing Services.', sv: 'SaaS-leverans, kompletta outsourcinglösningar, applikationsleverans, hanterade tjänster. EVRY One Outsourcing Services.' } },
-      { industry: { en: 'Enterprise Software / ERP', sv: 'Företagsprogramvara / ERP' }, years: '5', desc: { en: 'Cloud-native ERP applications, SaaS delivery, containerized middleware. IFS Applications.', sv: 'Molnbaserade ERP-applikationer, SaaS-leverans, containeriserad middleware. IFS Applications.' } },
-      { industry: { en: 'Healthcare Technology', sv: 'Hälso- och sjukvårdsteknik' }, years: '4', desc: { en: 'Electronic Health Record (EHR) and E-health as a Service. Service-oriented transformation for 17 of 21 Swedish regions. Cambio Healthcare Systems.', sv: 'Elektroniska patientjournaler (EHR) och E-hälsa som tjänst. Tjänsteorienterad transformation för 17 av 21 svenska regioner. Cambio Healthcare Systems.' } },
-      { industry: { en: 'Construction Technology', sv: 'Byggteknik' }, years: '1', desc: { en: 'Software solutions for Construction industry, expanding into Europe. Next One Technology / HVD Group.', sv: 'Programvarulösningar för byggindustrin, expansion i Europa. Next One Technology / HVD Group.' } },
-      { industry: { en: 'Integration Services', sv: 'Integrationstjänster' }, years: '1', desc: { en: 'Enterprise/Presales Architect for integration solutions. Entiros.', sv: 'Enterprise/Presales-arkitekt för integrationslösningar. Entiros.' } },
+      { industry: { en: 'IT Services & Outsourcing', sv: 'IT-tjänster & outsourcing' }, years: '', desc: { en: 'SaaS delivery, complete outsourcing solutions, application delivery, managed services. EVRY One Outsourcing Services.', sv: 'SaaS-leverans, kompletta outsourcinglösningar, applikationsleverans, hanterade tjänster. EVRY One Outsourcing Services.' } },
+      { industry: { en: 'Enterprise Software / ERP', sv: 'Företagsprogramvara / ERP' }, years: '', desc: { en: 'Cloud-native ERP applications, SaaS delivery, containerized middleware. IFS Applications.', sv: 'Molnbaserade ERP-applikationer, SaaS-leverans, containeriserad middleware. IFS Applications.' } },
+      { industry: { en: 'Healthcare Technology', sv: 'Hälso- och sjukvårdsteknik' }, years: '', desc: { en: 'Electronic Health Record (EHR) and E-health as a Service. Service-oriented transformation for 17 of 21 Swedish regions. Cambio Healthcare Systems.', sv: 'Elektroniska patientjournaler (EHR) och E-hälsa som tjänst. Tjänsteorienterad transformation för 17 av 21 svenska regioner. Cambio Healthcare Systems.' } },
+      { industry: { en: 'Construction Technology', sv: 'Byggteknik' }, years: '', desc: { en: 'Software solutions for Construction industry, expanding into Europe. Next One Technology / HVD Group.', sv: 'Programvarulösningar för byggindustrin, expansion i Europa. Next One Technology / HVD Group.' } },
+      { industry: { en: 'Integration Services', sv: 'Integrationstjänster' }, years: '', desc: { en: 'Enterprise/Presales Architect for integration solutions. Entiros.', sv: 'Enterprise/Presales-arkitekt för integrationslösningar. Entiros.' } },
     ],
   },
   education: {
